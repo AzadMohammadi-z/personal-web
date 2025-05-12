@@ -1,0 +1,74 @@
+@import url("./font.css");
+@import url("./icon.css");
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  font-family: Vazirmatn;
+}
+
+aside {
+  width: 20%;
+  height: 100%;
+  background-color: #b4b7b7;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.aside-sec {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aside-sec .fullname {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  color: white;
+}
+
+.aside-sec .description {
+  margin-top: 2px;
+  color: rgb(255, 255, 255);
+}
+
+.content {
+  width: 80%;
+  height: 100%;
+  background-color: rgb(227, 227, 227);
+}
+
+.avatar {
+  width: 90px;
+  height: 90px;
+  border: 2px solid #ccc;
+  border-radius: 100%;
+  background-image: url("../images/avatar.jpg");
+  background-size: cover;
+  margin-top: 10px;
+}
+
+.aside-sec .nav {
+  width: 80%;
+  height: 35px;
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  padding-right: 15px;
+}
+
+.aside-sec h6 {
+  color: #f0f0f0;
+}
+
+.nav h5 {
+  margin-right: 5px;
+}
