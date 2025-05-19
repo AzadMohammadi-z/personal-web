@@ -63,6 +63,7 @@ aside {
   display: flex;
   align-items: center;
   padding-right: 15px;
+  cursor: pointer;
 }
 
 .aside-sec h6 {
@@ -71,4 +72,71 @@ aside {
 
 .nav h5 {
   margin-right: 5px;
+}
+
+.social-media a {
+  cursor: pointer;
+  color: none;
+}
+
+.section-title {
+  width: 400px;
+  height: 50px;
+  background-color: #a0f7f7;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-content {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.section-content img {
+  width: 250px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.section-info-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.section-info-row h5 {
+  margin: 0;
+  margin-right: 5px;
+}
+
+.section-fav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.section-fav div {
+  width: 150px;
+  height: 35px;
+  border-radius: 5px;
+}
+
+.section-fav .box1 {
+  background-color: #309292;
+}
+
+.section-fav .box2 {
+  background-color: #0f8f5c;
+}
+.section-fav .box3 {
+  background-color: #176b92;
+}
+.section-fav .box4 {
+  background-color: #75980c;
 }
