@@ -42,6 +42,7 @@ aside {
   width: 80%;
   height: 100%;
   background-color: rgb(227, 227, 227);
+  overflow-y: scroll;
 }
 
 .avatar {
@@ -70,8 +71,19 @@ aside {
   color: #f0f0f0;
 }
 
+.nav {
+  transition: transform 0.5s;
+}
+.nav:hover {
+  transform: translateY(-5px);
+}
+
 .nav h5 {
   margin-right: 5px;
+}
+
+.social-media {
+  margin-bottom: 30px;
 }
 
 .social-media a {
@@ -82,13 +94,17 @@ aside {
 .section-title {
   width: 400px;
   height: 50px;
-  background-color: #a0f7f7;
+  background-color: #1f8282;
   border-radius: 10px;
   margin: 0 auto;
   margin-top: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.section-title h4 {
+  color: white;
 }
 
 .section-content {
@@ -103,11 +119,15 @@ aside {
   border-radius: 5px;
 }
 
+.section-info {
+  margin-top: 20px;
+}
+
 .section-info-row {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .section-info-row h5 {
@@ -139,4 +159,33 @@ aside {
 }
 .section-fav .box4 {
   background-color: #75980c;
+}
+
+.section-skill-box {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.section-skill {
+  margin-top: 30px;
+}
+
+.section-skill-box h1 {
+  margin: 2px;
+}
+
+@media screen and (max-width: 768px) {
+  aside {
+    display: none;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .section-content {
+    flex-direction: column;
+    align-items: center;
+  }
 }
